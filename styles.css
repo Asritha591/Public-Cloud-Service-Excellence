@@ -1,10 +1,56 @@
-/* Improve spacing for custom menu */
-.main-nav {
-    display: flex;
+/* Top Header Layout */
+.top-header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr auto;
     align-items: center;
+    padding: 15px 40px;
+    background: #f5f5f5;
 }
 
+/* Navigation */
 .main-nav a {
-    margin: 0 12px;
-    font-size: 15px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Left Nav Alignment */
+.left-nav {
+    justify-self: start;
+}
+
+/* Right Nav Alignment */
+.right-nav {
+    justify-self: center;
+}
+
+/* Center Logo */
+.logo {
+    justify-self: center;
+}
+
+.logo img {
+    height: 30px;
+}
+
+/* Right Section */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-self: end;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Contact Button */
+.contact-btn {
+    padding: 8px 16px;
+    border: 1px solid black;
+    background: transparent;
+    cursor: pointer;
 }
