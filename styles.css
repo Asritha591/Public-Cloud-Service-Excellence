@@ -99,7 +99,7 @@ body {
 .header-buttons button {
     min-width: 260px;
     height: 60px;
-    background-color: #004080; /* purple */
+    background-color: #0067b8; /* ✅ true blue */
     color: #ffffff;
     font-size: 18px;
     font-weight: 600;
@@ -111,6 +111,6 @@ body {
 }
 
 .header-buttons button:hover {
-    background-color: #004080;
+    background-color: #005a9e; /* darker blue on hover */
     transform: translateY(-2px);
 }
