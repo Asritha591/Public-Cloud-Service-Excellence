@@ -179,5 +179,10 @@ body {
 .dropdown-item.active .arrow {
     transform: rotate(180deg);
 }
+.pillar-card img {
+    width: 42px;
+    height: 42px;
+    margin-bottom: 15px;
+}
 
 
