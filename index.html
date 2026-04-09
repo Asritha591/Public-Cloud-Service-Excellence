@@ -93,7 +93,15 @@
 
 
 </section>
-    
+
+<script>
+        document.querySelectorAll(".dropdown-header").forEach(header => {
+            header.addEventListener("click", () => {
+                header.parentElement.classList.toggle("active");
+            });
+        });
+    </script>
+
    
 </body>
 </html>
