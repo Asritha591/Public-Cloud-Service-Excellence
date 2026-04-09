@@ -13,10 +13,11 @@ body {
     padding: 15px 40px;
 }
 
-/* Logo */
-.logo img {
-    height: 70px;
-}
+@media (max-width: 768px) {
+    .logo img {
+        height: 50px; /* smaller on mobile */
+    }
+}}
 
 /* Navigation */
 .nav-menu {
