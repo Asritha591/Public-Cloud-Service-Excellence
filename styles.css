@@ -180,77 +180,99 @@ body {
     transform: rotate(180deg);
 }
 /* Section */
- /* Section */
+/* ================================
+   Key Pillars – Section Container
+   ================================ */
 .key-pillars-carousel {
-  background-color: #ffffff;   /* ✅ WHITE */
-  padding: 50px 30px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+    background-color: #ffffff;
 }
 
+/* Section Heading */
 .key-pillars-carousel h2 {
-  color: #004080;
-  font-size: 30px;
-  margin-bottom: 25px;
+    color: #004080;
+    font-size: 28px;
+    margin-bottom: 25px;
 }
 
-/* Horizontal scroll container */
+/* ================================
+   Horizontal Scroll Container
+   ================================ */
 .pillar-scroll {
-  display: flex;
-  gap: 20px;
-  overflow-x: auto;
-  scroll-behavior: smooth;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
 
-  /* Hide scrollbar */
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+    /* Hide scrollbar (all browsers) */
+    scrollbar-width: none;          /* Firefox */
+    -ms-overflow-style: none;       /* IE / Edge */
 }
 
 .pillar-scroll::-webkit-scrollbar {
-  display: none;
+    display: none;                  /* Chrome / Safari */
 }
 
-/* Card */
+/* ================================
+   Pillar Card
+   ================================ */
 .pillar-card-img {
-  position: relative;
-  width: 360px;
-  height: 230px;
-  flex-shrink: 0;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    position: relative;
+    width: 360px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #000;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 }
 
-/* Image */
+/* Image inside card */
 .pillar-card-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-/* Text overlay */
+/* ================================
+   Text Overlay on Image
+   ================================ */
 .pillar-text {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 18px;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.85),
-    rgba(0, 0, 0, 0.2)
-  );
-  color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 18px;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.85),
+        rgba(0, 0, 0, 0.2)
+    );
+    color: #ffffff;
 }
 
+/* Title */
 .pillar-text h3 {
-  margin: 0 0 6px;
-  font-size: 18px;
-  font-weight: 600;
+    margin: 0 0 8px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
+/* Description */
 .pillar-text p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 1.4;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
 }
 
-
+/* ================================
+   Responsive (Mobile)
+   ================================ */
+@media (max-width: 768px) {
+    .pillar-card-img {
+        width: 280px;
+        height: 200px;
+    }
+}
