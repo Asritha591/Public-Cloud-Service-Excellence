@@ -170,6 +170,20 @@
         });
     </script>
 
-   
+   <script>
+  const track = document.querySelector(".pillar-slider-track");
+  let position = 0;
+
+  setInterval(() => {
+    position += 280;
+
+    if (position >= track.scrollWidth - track.clientWidth) {
+      position = 0;
+    }
+
+    track.style.transform = `translateX(-${position}px)`;
+  }, 3500);
+</script>
+
 </body>
 </html>
