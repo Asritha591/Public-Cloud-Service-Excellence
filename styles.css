@@ -90,3 +90,42 @@ body {
 .cloud-excellence p {
     margin-bottom: 15px;
 }
+/* Header buttons container */
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Button Styles */
+.header-buttons .btn-primary,
+.header-buttons .btn-secondary {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Primary button style */
+.header-buttons .btn-primary {
+    background-color: #0078d4; /* DXC blue */
+    color: white;
+}
+
+/* Secondary button style */
+.header-buttons .btn-secondary {
+    background-color: transparent;
+    color: #0078d4;
+    border: 1px solid #0078d4;
+}
+
+/* Hover Effects */
+.header-buttons .btn-primary:hover {
+    background-color: #005a9e;
+}
+
+.header-buttons .btn-secondary:hover {
+    background-color: #0078d4;
+    color: white;
+}
