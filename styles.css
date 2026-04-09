@@ -182,12 +182,13 @@ body {
 /* Section */
 /* Section */
 .key-pillars-carousel {
-  background: #000;
+  /* background: #000;  ❌ removed */
+  background: transparent;      /* ✅ or #ffffff */
   padding: 50px 30px;
 }
 
 .key-pillars-carousel h2 {
-  color: #fff;
+  color: #004080;               /* Blue heading like rest of site */
   font-size: 30px;
   margin-bottom: 25px;
 }
@@ -216,7 +217,7 @@ body {
   flex-shrink: 0;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
 }
 
 /* Image */
@@ -226,7 +227,7 @@ body {
   object-fit: cover;
 }
 
-/* Text Overlay */
+/* Text overlay (unchanged – still dark for readability) */
 .pillar-text {
   position: absolute;
   bottom: 0;
@@ -235,7 +236,7 @@ body {
   padding: 18px;
   background: linear-gradient(
     to top,
-    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.85),
     rgba(0, 0, 0, 0.2)
   );
   color: #fff;
