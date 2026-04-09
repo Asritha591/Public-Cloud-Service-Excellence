@@ -182,7 +182,8 @@ body {
 /* Section */
 /* ================================
    Key Pillars – Section Container
-   ================================ */
+  ================================ */
+.org-view,
 .key-pillars-carousel {
     max-width: 900px;
     margin: 50px auto;
