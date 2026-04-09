@@ -5,6 +5,7 @@ body {
 }
 
 /* Header */
+/* Header */
 .top-header {
     display: flex;
     align-items: center;
@@ -13,10 +14,9 @@ body {
     padding: 15px 40px;
 }
 
-
-    .logo img {
-        height: 70px; /* smaller on mobile */
-    }
+/* Logo */
+.logo img {
+    height: 70px;
 }
 
 /* Navigation */
