@@ -90,47 +90,27 @@ body {
 .cloud-excellence p {
     margin-bottom: 15px;
 }
-/* Header buttons container */
 .header-buttons {
     display: flex;
-    gap: 10px;
+    gap: 24px;
+    margin-top: 30px;
 }
 
-/* Button Styles */
-.header-buttons .btn-primary,
-.header-buttons .btn-secondary {
-    padding: 8px 16px;
-    border: none;
-    cursor: pointer;
-    font-weight: 500;
-    border-radius: 4px;
-    font-size: 14px;
-}
-/* Buttons container */
-.header-buttons {
-    display: flex;
-    gap: 20px;
-    margin-top: 20px;
-}
-
-/* Common button style */
 .header-buttons button {
-    min-width: 260px;              /* wide buttons */
-    height: 56px;                  /* consistent height */
-    border: none;
-    border-radius: 6px;            /* soft rounded corners */
-    background-color: #5e2ca5;     /* purple color */
+    min-width: 260px;
+    height: 60px;
+    background-color: #5e2ca5; /* purple */
     color: #ffffff;
     font-size: 18px;
     font-weight: 600;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
 
-/* Hover effect */
 .header-buttons button:hover {
-    background-color: #4b1f88;     /* darker purple */
+    background-color: #4b1f88;
     transform: translateY(-2px);
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
 }
