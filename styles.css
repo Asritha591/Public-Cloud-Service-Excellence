@@ -125,4 +125,59 @@ body {
     color: #5e2ca5; /* matches screenshot heading */
     margin-bottom: 20px;
 }
+/* Organization View */
+.org-view {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.org-view h2 {
+    color: #5e2ca5; /* same purple heading as screenshot */
+    margin-bottom: 30px;
+}
+
+/* Dropdown item */
+.dropdown-item {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Header row */
+.dropdown-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Arrow */
+.dropdown-header .arrow {
+    transition: transform 0.3s ease;
+}
+
+/* Content (hidden by default) */
+.dropdown-content {
+    display: none;
+    padding-bottom: 20px;
+}
+
+/* Image styling */
+.dropdown-content img {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 6px;
+}
+
+/* Active state */
+.dropdown-item.active .dropdown-content {
+    display: block;
+}
+
+.dropdown-item.active .arrow {
+    transform: rotate(180deg);
+}
+
 
