@@ -65,3 +65,27 @@ body {
         font-size: 30px;
     }
 }
+.cloud-excellence {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.cloud-excellence h1, .cloud-excellence h2 {
+    color: #004080;
+}
+
+.cloud-excellence h1 {
+    margin-bottom: 20px;
+}
+
+.cloud-excellence h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.cloud-excellence p {
+    margin-bottom: 15px;
+}
