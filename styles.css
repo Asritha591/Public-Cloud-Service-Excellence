@@ -106,26 +106,31 @@ body {
     border-radius: 4px;
     font-size: 14px;
 }
-
-/* Primary button style */
-.header-buttons .btn-primary {
-    background-color: #0078d4; /* DXC blue */
-    color: white;
+/* Buttons container */
+.header-buttons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
 }
 
-/* Secondary button style */
-.header-buttons .btn-secondary {
-    background-color: transparent;
-    color: #0078d4;
-    border: 1px solid #0078d4;
+/* Common button style */
+.header-buttons button {
+    min-width: 260px;              /* wide buttons */
+    height: 56px;                  /* consistent height */
+    border: none;
+    border-radius: 6px;            /* soft rounded corners */
+    background-color: #5e2ca5;     /* purple color */
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
 }
 
-/* Hover Effects */
-.header-buttons .btn-primary:hover {
-    background-color: #005a9e;
-}
-
-.header-buttons .btn-secondary:hover {
-    background-color: #0078d4;
-    color: white;
+/* Hover effect */
+.header-buttons button:hover {
+    background-color: #4b1f88;     /* darker purple */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
 }
