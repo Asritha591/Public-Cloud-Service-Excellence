@@ -180,15 +180,14 @@ body {
     transform: rotate(180deg);
 }
 /* Section */
-/* Section */
+ /* Section */
 .key-pillars-carousel {
-  /* background: #000;  ❌ removed */
-  background: transparent;      /* ✅ or #ffffff */
+  background-color: #ffffff;   /* ✅ WHITE */
   padding: 50px 30px;
 }
 
 .key-pillars-carousel h2 {
-  color: #004080;               /* Blue heading like rest of site */
+  color: #004080;
   font-size: 30px;
   margin-bottom: 25px;
 }
@@ -227,7 +226,7 @@ body {
   object-fit: cover;
 }
 
-/* Text overlay (unchanged – still dark for readability) */
+/* Text overlay */
 .pillar-text {
   position: absolute;
   bottom: 0;
@@ -239,7 +238,7 @@ body {
     rgba(0, 0, 0, 0.85),
     rgba(0, 0, 0, 0.2)
   );
-  color: #fff;
+  color: #ffffff;
 }
 
 .pillar-text h3 {
@@ -253,4 +252,5 @@ body {
   font-size: 14px;
   line-height: 1.4;
 }
+
 
